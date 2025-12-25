@@ -6,6 +6,7 @@ normal = "block"
 select = "underline"
 
 [editor]
+bufferline = "always"
 mouse = false
 true-color = true
 rulers = [80]
