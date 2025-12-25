@@ -1,0 +1,12 @@
+theme = "monokai"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor]
+mouse = false
+true-color = true
+rulers = [80]
+trim-trailing-whitespace = true
