@@ -1,4 +1,11 @@
 [[language]]
 name = "python"
 auto-format = true
+language-servers = ["pylsp"]
 formatter = { command = "black", args = [ "--quiet", "-" ] }
+scope = "source.python"
+
+[language-server.pylsp.config.pylsp.plugins]
+pylsp_mypy.enabled = true
+pylsp_mypy.live_mode = true
+rope_autoimport.enabled = true
