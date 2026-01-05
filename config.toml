@@ -6,8 +6,16 @@ normal = "block"
 select = "underline"
 
 [editor]
-bufferline = "always"
+bufferline = "multiple"
 mouse = false
 true-color = true
 rulers = [80]
 trim-trailing-whitespace = true
+idle-timeout = 50
+
+
+[keys.normal]
+ret = "insert_mode"
+tab = "rotate_view"
+F3 = "goto_previous_buffer"
+F4 = "goto_next_buffer"
