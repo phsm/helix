@@ -1,5 +1,6 @@
 [[language]]
 name = "python"
+scope = "source.python"
 auto-format = true
 language-servers = ["pylsp"]
 formatter = { command = "black", args = [ "--quiet", "-" ] }
@@ -14,7 +15,6 @@ scope = "source.java"
 file-types = ["java"]
 roots = ["pom.xml", "build.gradle", ".git"]
 language-servers = ["jdtls"]
-scope = "source.python"
 
 [language-server.pylsp.config.pylsp.plugins]
 pylsp_mypy.enabled = true
